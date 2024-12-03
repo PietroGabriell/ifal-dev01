@@ -3,6 +3,6 @@ def main() :
     calcular(numero)
 
 def calcular(numero) :
-    print (f" Este número vezes ele mesmo e igual a {numero * numero} ")
+    print (f"  o número {numero} vezes ele mesmo e igual a {numero * numero} ")
 
 main()
