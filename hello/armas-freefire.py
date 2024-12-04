@@ -31,7 +31,7 @@ armas = {
         "Dano na Mira 2x" : "Não tem Mira 2x",
         "Dano no Colete" : "Não tem Dano determinado"
     },
-    "awp" : {
+    "awm" : {
         "Dano no Capa" : "1100",
         "Precisão" : "100%",
         "Velocidade de disparo" : "1", 
@@ -84,7 +84,7 @@ armas = {
         "Precisão" : "70%",
         "Velocidade de disparo" : "9", 
         "Dano na Mira 4x" : "32",
-        "Dano na MIra 2x" : "172",
+        "Dano na Mira 2x" : "172",
         "Dano no Colete" : "32"
     }
 }
@@ -96,8 +96,8 @@ def exibir(nome):
         print(f"Dano no Capa: {arma['Dano no Capa']}\n")
         print(f"Precisão: {arma['Precisão']}\n")
         print(f"Velocidade de disparo: {arma['Velocidade de disparo']}\n")
-        print(f"Dano na Mira 4x: {arma['Dano na Mira 2x']}\n")
-        print(f"Dano na Mira 2x: {arma['Dano na Mira 4x']}\n")
+        print(f"Dano na Mira 4x: {arma['Dano na Mira 4x']}\n")
+        print(f"Dano na Mira 2x: {arma['Dano na Mira 2x']}\n")
         print(f"Dano no Colete: {arma['Dano no Colete']}\n")
         
     else:
